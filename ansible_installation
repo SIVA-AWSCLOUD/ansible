@@ -10,6 +10,8 @@ managed node
 sudo yum update -y
 sudo yum install python3-pip -y
 
+install the pageant - upload the key
+putty - allow agent port forwarding
 
 [web]
 172.31.94.11
