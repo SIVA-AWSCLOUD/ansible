@@ -26,3 +26,8 @@ ansible web -i inventory.txt -m ping
 ansible web -i inventory.txt -m yum -a “name=httpd state=present” -b
 ansible web -i inventory.txt -m yum -a "name=httpd state=present" -b
 ansible web -i inventory.txt -m service -a "name=httpd state=started" -b
+
+
+
+ ansible web -i inventory.txt -m yum -a "name=nginx state=present" -b
+ansible web -i inventory.txt -m service -a "name=nginx state=started" -b
